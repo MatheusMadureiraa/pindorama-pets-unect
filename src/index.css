@@ -31,14 +31,20 @@ footer {
 
 #footer-content-container{
     width: 100%;
+    height: 232px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 footer img {
     height:200px;
     width: 200px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
 }
 
 #direitos-container{
@@ -56,4 +62,12 @@ footer img {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
+}
+
+span {
+    text-transform: uppercase;
+    color:#063643;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
