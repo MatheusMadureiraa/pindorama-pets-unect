@@ -1,25 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css"/>
     <title>Pindorama Pets</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
-        <img src="./img/logo-horizontal.png">
-        <div>
-            
+        <div class="header-flex">
+            <div class="logo">
+                <img src="./img/logo-horizontal.png" alt="Logo Pindorama Pets">
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#inicio"><img src="./img/inicio.svg" alt="Início" style="height:1.5rem;vertical-align:middle;"></a></li>
+                    <li><a href="#servicos"><img src="./img/serviço.svg" alt="Serviços" style="height:1.5rem;vertical-align:middle;"></a></li>
+                    <li><a href="#sobre"><img src="./img/sobre-nós.svg" alt="Sobre Nós" style="height:1.5rem;vertical-align:middle;"></a></li>
+                    <li><a href="#contato"><img src="./img/Contatp.svg" alt="Contato" style="height:1.5rem;vertical-align:middle;"></a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    ☰
+                </div>
+            </nav>
         </div>
     </header>
 
-    <p>corpo da página</p>
+    <main>
+        <section id="hero">
+            <div class="hero-wrapper">
+                <img src="./img/banner-central.png" alt="Hero" class="hero-img">
+                <img src="./img/riscos-do-banner-central.png" alt="Riscos decorativos" class="hero-decoration">
+                <div class="hero-overlay">
+                    <h2 class="hero-title">Cuidando do Seu Pet com<br>Profissionalismo e Carinho</h2>
+                    <a href="#contato" class="hero-cta">Entre em contato</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="carousel" aria-label="Carrossel de banners">
+            <div class="carousel-container">
+                <div class="carousel-overlay" aria-hidden="false">
+                    <h3 class="carousel-overlay-title">Texto do Slide 1</h3>
+                    <p class="carousel-overlay-subtitle">Nos dias 19 a 28 de novembro</p>
+                </div>
+                <div class="carousel-slides">
+                    <div class="carousel-slide" data-index="0">
+                        <img src="./img/banner1.png" alt="Banner 1 - Pindorama Pets">
+                    </div>
+                    <div class="carousel-slide" data-index="1">
+                        <img src="./img/banner2.png" alt="Banner 2 - Pindorama Pets">
+                    </div>
+                    <div class="carousel-slide" data-index="2">
+                        <img src="./img/banner3.png" alt="Banner 3 - Pindorama Pets">
+                    </div>
+                </div>
+
+                <button class="carousel-control prev" aria-label="Slide anterior">
+                    <img src="./img/seta esquerda.svg" alt="anterior" />
+                </button>
+                <button class="carousel-control next" aria-label="Próximo slide">
+                    <img src="./img/seta-direita.svg" alt="próximo" />
+                </button>
+
+                <div class="carousel-indicators" role="tablist" aria-label="Indicadores do carrossel">
+                    <button class="indicator" data-index="0" aria-label="Ir para slide 1" role="tab"></button>
+                    <button class="indicator" data-index="1" aria-label="Ir para slide 2" role="tab"></button>
+                    <button class="indicator" data-index="2" aria-label="Ir para slide 3" role="tab"></button>
+                </div>
+                <a href="#contato" class="carousel-cta-floating" aria-label="Saiba mais">Saiba mais</a>
+            </div>
+        </section>
+        <section id="inicio">
+            <div class="faixa-azul-box">
+                <img src="./img/fundo-animais-icons 3.png" alt="Fundo Animais" class="faixa-azul-img">
+                <div class="faixa-azul-logo">
+                    <img src="./img/logo-meio.png" alt="Logo Pindorama Pets">
+                </div>
+                <div class="faixa-azul-textos">
+                    <div class="quem-somos-titulo">Quem somos?</div>
+                    <div class="quem-somos-descricao">Nossa clínica veterinária é comprometida com o cuidado e bem-estar <br> de cada pet, com uma equipe dedicada e instalações modernas<br> buscamos garantir saúde e conforto em cada atendimento. Cuidamos <br> do seu animalzinho como se fosse nosso!</div>
+                </div>
+            </div>
+            <div class="faixa-vermelha-box" style="position: relative;">
+                <div class="faixa-vermelha-img-container">
+                    <img src="./img/foto-oqsomos.png" alt="Consulta veterinária">
+                </div>
+                <img src="./img/fundo-animais-icons 3.png" alt="Fundo Animais" class="faixa-vermelha-img">
+                <h1></h1>
+                <p class="faixa-vermelha-descricao">Nosso serviço</p>
+                <div class="faixa-vermelha-texto-objeto">
+                    <p class="faixa-vermelha-texto-baixo">Na nossa clínica veterinária, cada consulta é realizada com<br> dedicação e atenção aos detalhes, garantindo o melhor cuidado <br> para o seu pet. Contamos com uma equipe experiente e <br> atualizada para oferecer diagnósticos precisos e tratamentos <br> eficazes.</p>
+                </div>
+            </div>
+            <div class="faixa-amarela-box">
+                <img src="./img/fundo-animais-icons 3.png" alt="Fundo Animais" class="faixa-amarela-img">
+                <div class="faixa-amarela-conteudo">
+                    <div class="faixa-amarela-texto">
+                        Nós cuidamos do seu pet com o carinho e respeito que ele <br> merece. Nossa equipe dedica atenção a cada detalhe, <br> proporcionando um ambiente acolhedor e seguro para que seu <br> animalzinho se sinta em casa.
+                    </div>
+                    <img src="./img/Medicina-Veterinaria 1.png" alt="Cachorro feliz" class="cachorro-img">
+                </div>
+            </div>
+                <div class="caixa-laranja-flex">
+                    <div class="caixa-laranja-conteudo">
+                        <p><strong>Nossos Profissionais</strong></p>
+                            <div class="fotos-medicos">
+                                <div class="medico-item">
+                                    <img src="./img/medico1.png" alt="Médico 1">
+                                    <p class="nome-medico">Carlos de Souza</p>
+                                    <p class="especialidade-medico">Cirurgia Veterinária</p>
+                                </div>
+                                <div class="medico-item">
+                                    <img src="./img/medico2.png" alt="Médico 2">
+                                    <p class="nome-medico">João Paulo</p>
+                                    <p class="especialidade-medico">Dermatologia Veterinária</p>
+                                </div>
+                                <div class="medico-item">
+                                    <img src="./img/medico3.png" alt="Médico 3">
+                                    <p class="nome-medico">Jose da Silva</p>
+                                    <p class="especialidade-medico">Patologia</p>
+                                </div>
+                                <div class="medico-item">
+                                    <img src="./img/medico4.png" alt="Médico 4">
+                                    <p class="nome-medico">Fulano</p>
+                                    <p class="especialidade-medico">Anestesiologia</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <p>Seu portal para serviços veterinários, adoção e muito mais!</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>Consulta veterinária, banho e tosa, vacinação e outros cuidados para seu pet.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos apaixonados por animais e dedicados ao bem-estar dos pets e suas famílias.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Fale conosco para dúvidas, sugestões ou agendamentos.</p>
+        </section>
+    </main>
 
     <footer>
         <div id="footer-content-container">
-            <img src="./img/logo.png" >
-
+            <img src="./img/logo.png" alt="Logo Pindorama Pets">
             <div class="footer-content">
                 <span>Nossos Serviços</span>
                 <p class="links-footer">SOBRE NÓS</p>
@@ -43,5 +174,6 @@
             <p id="direitos">UNECT JR - Todos os direitos reservados</p>
         </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
