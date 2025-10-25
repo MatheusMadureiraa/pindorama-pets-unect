@@ -345,26 +345,23 @@ header{
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #F8F8FF;
-    height: auto;
-    padding-block: 1rem;
+    height: 272px;
 
 }
 
 #footer-content-container{
     width: 100%;
+    height: 232px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 1rem;
-    padding-block: 1rem;
 }
 
 footer img {
-    height: 8rem;
-    width: auto;
-    max-width: 12rem;
+    height:200px;
+    width: 200px;
 }
 
 .footer-content {
@@ -375,7 +372,7 @@ footer img {
 #direitos-container{
     width: 100%;
     background-color: #063643;
-    height: 2.5rem;
+    height: 40px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -385,7 +382,7 @@ footer img {
     color: #DAEDFF;
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 700;
 }
 
@@ -393,7 +390,7 @@ span {
     text-transform: uppercase;
     color:#063643;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
