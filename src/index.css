@@ -18,8 +18,6 @@ header{
     height: 140px;
 }
 
-
-
 footer {
     display: flex;
     flex-direction: column;
@@ -35,6 +33,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 footer img {
@@ -69,5 +68,9 @@ span {
     color:#063643;
     font-weight: 700;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+}
+
+.links-footer{
+    font-size: 16px;
+    font-weight: 400;
 }
