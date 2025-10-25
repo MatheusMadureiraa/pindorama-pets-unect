@@ -228,31 +228,31 @@
   height: auto;
 }
 .faixa-azul-textos {
-  flex: 1 1 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-left: 28rem;
-  margin-top: 8rem;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 28rem;
+    margin-top: 8rem;
 }
 .faixa-azul-titulo {
-  color: #063643;
-  font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  margin: 0 0 1rem 0;
-  margin-top: 20rem;  
+    color: #063643;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    margin-top: 20rem;
 }
 .faixa-azul-descricao {
-  color: #063643;
-  font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1.4;
-  max-width: 50rem;
-  padding-left: 15rem;
+    color: #063643;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4;
+    max-width: 50rem;
+    padding-left: 15rem;
 }
 
 .faixa-azul-img {
@@ -872,30 +872,30 @@ span {
 }
 
 .faixa-azul-titulo {
-  margin-top: -17rem;
-  margin-bottom: 0;
-  position: relative;
-  z-index: 2;
-  margin-left: 2rem;
+    margin-top: -17rem;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    margin-left: 2rem;
 }
 
 .quem-somos-titulo {
-  color: #063643;
-  font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+    color: #063643;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     margin: 0 0 1rem 4rem;
     margin-top: -17rem;
     margin-bottom: 3rem;
 }
 .quem-somos-descricao {
-  color: #063643;
-  font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+    color: #063643;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     margin: 0 0 0 4rem;
-  line-height: 1.4;
-  max-width: 50rem;
+    line-height: 1.4;
+    max-width: 50rem;
 }
 
 .faixa-vermelha-img-container {
@@ -907,6 +907,6 @@ span {
     z-index: 2;
 }
 .faixa-vermelha-img-container img {
-  width: 100%;
-  border-radius: 1rem;
+    width: 100%;
+    border-radius: 1rem;
 }
