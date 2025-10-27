@@ -1,0 +1,58 @@
+{
+    "avaliacoes": [
+        {
+            "nome": "Carlos Alberto",
+            "foto": "img/avaliacoes/carlos.jpg",
+            "estrelas": 5,
+            "comentario": "Atendimento excepcional! A equipe foi muito cuidadosa e atenciosa com meu pet."
+        },
+        {
+            "nome": "Neymar Jr",
+            "foto": "img/avaliacoes/neymar.jpg",
+            "estrelas": 5,
+            "comentario": "Não poderia estar mais feliz com o serviço desta clínica. Profissionais qualificados e atenciosos."
+        },
+        {
+            "nome": "Josseana da Silva",
+            "foto": "img/avaliacoes/josseana.jpg",
+            "estrelas": 5,
+            "comentario": "Excelente clínica! Desde o primeiro contato, fui atendido com profissionalismo e gentileza."
+        },
+        {
+            "nome": "João Henrique",
+            "foto": "img/avaliacoes/carlos.jpg",
+            "estrelas": 5,
+            "comentario": "Atendimento de primeira, cuidam muito bem dos animais e explicam tudo com clareza."
+        },
+        {
+            "nome": "Adamilton Jr",
+            "foto": "img/avaliacoes/neymar.jpg",
+            "estrelas": 4,
+            "comentario": "A clínica é muito bem equipada e os profssionais são incríveis, mas o tempo de espera poderia ser menor."
+        },
+        {
+            "nome": "Luciana da Silva",
+            "foto": "img/avaliacoes/josseana.jpg",
+            "estrelas": 5,
+            "comentario": "Profissionais capacitados e atenciosos, meu gatinho recebeu o melhor cuidado. Recomendo muito"
+        },
+        {
+            "nome": "Matheus Brito",
+            "foto": "img/avaliacoes/carlos.jpg",
+            "estrelas": 5,
+            "comentario": "Atendimento excepcional! A equipe foi muito cuidadosa e atenciosa com meu pet."
+        },
+        {
+            "nome": "Luiz Jr",
+            "foto": "img/avaliacoes/neymar.jpg",
+            "estrelas": 5,
+            "comentario": "Não poderia estar mais feliz com o serviço desta clínica. Profissionais qualificados e atenciosos."
+        },
+        {
+            "nome": "Clariane da Silva",
+            "foto": "img/avaliacoes/josseana.jpg",
+            "estrelas": 5,
+            "comentario": "Excelente clínica! Desde o primeiro contato, fui atendido com profissionalismo e gentileza."
+        }
+    ]
+}

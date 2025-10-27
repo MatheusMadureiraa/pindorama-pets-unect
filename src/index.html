@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pindorama Pets</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/generics.css"/>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
                     <li><a href="#inicio"><img src="./img/inicio.svg" alt="Início" style="height:1.5rem;vertical-align:middle;"></a></li>
                     <li><a href="#servicos"><img src="./img/serviço.svg" alt="Serviços" style="height:1.5rem;vertical-align:middle;"></a></li>
                     <li><a href="#sobre"><img src="./img/sobre-nós.svg" alt="Sobre Nós" style="height:1.5rem;vertical-align:middle;"></a></li>
-                    <li><a href="#contato"><img src="./img/Contatp.svg" alt="Contato" style="height:1.5rem;vertical-align:middle;"></a></li>
+                    <li><a href="#contato-section"><img src="./img/Contatp.svg" alt="Contato" style="height:1.5rem;vertical-align:middle;"></a></li>
                 </ul>
                 <div class="menu-toggle" id="menu-toggle">
                     ☰
@@ -33,7 +34,7 @@
                 <img src="./img/riscos-do-banner-central.png" alt="Riscos decorativos" class="hero-decoration">
                 <div class="hero-overlay">
                     <h2 class="hero-title">Cuidando do Seu Pet com<br>Profissionalismo e Carinho</h2>
-                    <a href="#contato" class="hero-cta">Entre em contato</a>
+                    <a href="#contato-section" class="hero-cta">Entre em contato</a>
                 </div>
             </div>
         </section>
@@ -68,7 +69,7 @@
                     <button class="indicator" data-index="1" aria-label="Ir para slide 2" role="tab"></button>
                     <button class="indicator" data-index="2" aria-label="Ir para slide 3" role="tab"></button>
                 </div>
-                <a href="#contato" class="carousel-cta-floating" aria-label="Saiba mais">Saiba mais</a>
+                <a href="#contato-section" class="carousel-cta-floating" aria-label="Saiba mais">Saiba mais</a>
             </div>
         </section>
         <section id="inicio">
@@ -132,20 +133,62 @@
                 <p>Seu portal para serviços veterinários, adoção e muito mais!</p>
         </section>
 
-        <section id="servicos">
-            <h2>Serviços</h2>
-            <p>Consulta veterinária, banho e tosa, vacinação e outros cuidados para seu pet.</p>
+        <section id="avaliacoes-section">
+            <div id="avaliacoes-container">
+                <h2>Não foi possível carregar as avalições</h2>
+                <div id="mensagens-container">
+
+                </div>
+            </div>
+        </section>
+    
+        <section id="contato-section">
+            <div id="contato-container">
+                <h2>Entre em Contato</h2>
+                <div id="form-container">
+                    <div id="map-and-infos">
+                        <h3>Localização</h3>
+                        <p id="text-endereco">Rua - Fulana de tal, 9999<br>CEP 99999-999<br>Pindorama/SP<br><br></p>
+
+                        <div id="map-image">
+                            <img id="map-photo" src="img/map.png" alt="Mapa com localização"/>
+                        </div>
+
+                        <div class="redes-contatos">
+                            <img class="icon" src="img/contacts/whatsapp.png" alt="whatsapp">
+                            <p class="text-contatos">(43)99615-9999</p>
+                        </div>
+
+                        <div class="redes-contatos">
+                            <img class="icon" src="img/contacts/instagram.png" alt="instagram">
+                            <p class="text-contatos">@PindoramaClinica</p>
+                        </div>
+
+                        <div class="redes-contatos">
+                            <img class="icon" src="img/contacts/facebook.png" alt="facebook">
+                            <p class="text-contatos">PindoramaClinica</p>
+                        </div>
+                    
+                    </div>
+                    <form id="contato-form" action="#" method="POST">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required />
+                
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome" required />
+                
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required />
+                
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                        <button type="submit" id="btn-enviar">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
         </section>
 
-        <section id="sobre">
-            <h2>Sobre Nós</h2>
-            <p>Somos apaixonados por animais e dedicados ao bem-estar dos pets e suas famílias.</p>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Fale conosco para dúvidas, sugestões ou agendamentos.</p>
-        </section>
     </main>
 
     <footer>
@@ -167,6 +210,11 @@
 
             <div class="footer-content">
                 <span>Nossos contatos</span>
+                <div id="contacts-icons">
+                    <img class="icon" src="img/contacts/whatsapp.png" alt="whatsapp">
+                    <img class="icon" src="img/contacts/instagram.png" alt="instagram">
+                    <img class="icon" src="img/contacts/facebook.png" alt="facebook">
+                </div>
             </div>
         </div>
 
@@ -175,5 +223,6 @@
         </div>
     </footer>
     <script src="./index.js"></script>
+    <script src="./scripts/avaliacoes.js"></script>
 </body>
 </html>
