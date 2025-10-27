@@ -790,6 +790,12 @@ hr {
     background: rgba(6, 54, 67, 1);
 }
 
+/*ICONES OCULTOS NO DESKTOP*/
+
+#social-mobile {
+    display: none;
+}
+
 
 /* SECTION DO FOOTER */
 footer {
@@ -808,7 +814,7 @@ footer {
     flex-direction: row;
     align-items:start;
     justify-content: space-between;
-    width: max(65%, 350px);
+    width: max(70%, 350px);
 }
 
 footer img {
@@ -828,6 +834,10 @@ footer img {
     font-size: max(12px, 1.1vw);
     font-weight: 400;
     text-align: start;
+}
+
+#last-content-footer{
+    text-align: center;
 }
 
 #contacts-icons{

@@ -7,6 +7,77 @@
         padding: 0;
     }
 
+
+    /*veterinarios section*/
+    .caixa-laranja-flex{
+        background: none;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .caixa-laranja-conteudo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fotos-medicos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 28px;
+        border: none;
+        background: rgba(248, 248, 255, 1);
+        padding: 32px 0;
+        margin-top: 24px;
+    }
+
+    .medico-item {
+        width: 40%;
+    }
+
+    .medico-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nome-medico{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .especialidade-medico{
+        font-size: 12px;
+    }
+
+    /*avaliacoes*/
+    #avaliacoes-container{
+        width: 90%;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .paginacao{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .numero-pagina{
+        font-size: 16px;
+    }
+
+    .botao-proxima, .botao-anterior{
+        border-radius: 50%;
+        background: rgba(199, 235, 251, 1);
+        color: rgba(6, 54, 67, 1);
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+
     /*formulario section*/
     #contato-section {
         width: 100%;
@@ -35,6 +106,10 @@
         width: 100%;
     }
 
+    #contato-form label, input{
+        font-size: 14px;
+    }
+
     #map-and-infos {
         display: none;
     }
@@ -43,18 +118,48 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        padding: 32px;
+        background: none;
+        border: none;
+        width: 100vw;
+        padding: 32px 0;
     }
 
     #contato-form input, textarea{
-        width: 100%;
+        width: 90%;
     }
 
     #btn-enviar {
         width: max(60%, 250px);
     }
 
+    /*icones de redes do mobile*/
+    #social-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        padding-bottom: 32px;
+    }
+
+    .icon{
+        width: 63px;
+        height: 63px;
+    }
+
+
     /*footer section*/
-    
+    #footer-content-container{
+        width: 90%;
+        height: auto;
+    }
+
+    #last-content-footer, footer img{
+        display: none;
+        justify-content: space-evenly; /*tirando os contatos do footer e a logo*/
+    }
+
+    .links-footer, span, #direitos{
+        font-size: 14px;
+        padding-top: 6px;
+    }
 }
