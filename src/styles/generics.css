@@ -8,3 +8,30 @@ h2 {
     font-style: bold;
     color: #063643;
 }
+
+/*FAIXAS*/
+
+/* TEXTOS PRESENTES NAS FAIXAS DE CONTEÚDO */
+.faixas-text {
+    font-family: "Open-sans", sans-serif;
+    font-size: 18px;
+    color: rgba(6, 54, 67, 1);
+    letter-spacing: 2%;
+}
+
+/*IMAGENS DAS FAIXAS MID E BOTTOM*/
+.nossos-servicos-img{
+    border: 1px solid rgba(99, 179, 201, 1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+    width: min(250px, 25vw);
+    height: auto;
+}
+
+/*icones das redes de contato no form e footer*/
+.icon{
+    width: min(3vw, 36px);
+    height: min(3vw, 36px);
+}
