@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: bold;
+    color: #063643;
+}
+
+/*FAIXAS*/
+
+/* TEXTOS PRESENTES NAS FAIXAS DE CONTEÚDO */
+.faixas-text {
+    font-family: "Open-sans", sans-serif;
+    font-size: 18px;
+    color: rgba(6, 54, 67, 1);
+    letter-spacing: 2%;
+}
+
+/*IMAGENS DAS FAIXAS MID E BOTTOM*/
+.nossos-servicos-img{
+    border: 1px solid rgba(99, 179, 201, 1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+    width: min(250px, 25vw);
+    height: auto;
+}
+
+/*icones das redes de contato no form e footer*/
+.icon{
+    width: min(3vw, 36px);
+    height: min(3vw, 36px);
+}

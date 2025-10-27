@@ -1,25 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css"/>
     <title>Pindorama Pets</title>
+    <link rel="stylesheet" href="./styles/generics.css"/>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
     <header>
-        <img src="./img/logo-horizontal.png">
-        <div>
-            
+        <div class="header-flex">
+            <div class="logo">
+                <img src="./img/logo-horizontal.png" alt="Logo Pindorama Pets">
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#inicio"><img src="./img/inicio.svg" alt="Início" style="height:1.5rem;vertical-align:middle;"></a></li>
+                    <li><a href="#servicos"><img src="./img/serviço.svg" alt="Serviços" style="height:1.5rem;vertical-align:middle;"></a></li>
+                    <li><a href="#sobre"><img src="./img/sobre-nós.svg" alt="Sobre Nós" style="height:1.5rem;vertical-align:middle;"></a></li>
+                    <li><a href="#contato-section"><img src="./img/Contatp.svg" alt="Contato" style="height:1.5rem;vertical-align:middle;"></a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    ☰
+                </div>
+            </nav>
         </div>
     </header>
 
-    <p>corpo da página</p>
+    <main>
+        <section id="hero">
+            <div class="hero-wrapper">
+                <img src="./img/banner-central.png" alt="Hero" class="hero-img">
+                <img src="./img/riscos-do-banner-central.png" alt="Riscos decorativos" class="hero-decoration">
+                <div class="hero-overlay">
+                    <h2 class="hero-title">Cuidando do Seu Pet com<br>Profissionalismo e Carinho</h2>
+                    <a href="#contato-section" class="hero-cta">Entre em contato</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="carousel" aria-label="Carrossel de banners">
+            <div class="carousel-container">
+                <div class="carousel-overlay" aria-hidden="false">
+                    <h3 class="carousel-overlay-title">Texto do Slide 1</h3>
+                    <p class="carousel-overlay-subtitle">Nos dias 19 a 28 de novembro</p>
+                </div>
+                <div class="carousel-slides">
+                    <div class="carousel-slide" data-index="0">
+                        <img src="./img/banner1.png" alt="Banner 1 - Pindorama Pets">
+                    </div>
+                    <div class="carousel-slide" data-index="1">
+                        <img src="./img/banner2.png" alt="Banner 2 - Pindorama Pets">
+                    </div>
+                    <div class="carousel-slide" data-index="2">
+                        <img src="./img/banner3.png" alt="Banner 3 - Pindorama Pets">
+                    </div>
+                </div>
+
+                <button class="carousel-control prev" aria-label="Slide anterior">
+                    <img src="./img/seta esquerda.svg" alt="anterior" />
+                </button>
+                <button class="carousel-control next" aria-label="Próximo slide">
+                    <img src="./img/seta-direita.svg" alt="próximo" />
+                </button>
+
+                <div class="carousel-indicators" role="tablist" aria-label="Indicadores do carrossel">
+                    <button class="indicator" data-index="0" aria-label="Ir para slide 1" role="tab"></button>
+                    <button class="indicator" data-index="1" aria-label="Ir para slide 2" role="tab"></button>
+                    <button class="indicator" data-index="2" aria-label="Ir para slide 3" role="tab"></button>
+                </div>
+                <a href="#contato-section" class="carousel-cta-floating" aria-label="Saiba mais">Saiba mais</a>
+            </div>
+        </section>
+        
+        <section id="inicio">
+            <div class="quem-somos-container">
+                <div id="quem-somos-content-container">
+                    <div id="quem-somos-logo">
+                        <img src="./img/logo-meio.png" alt="Logo Pindorama Pets">
+                    </div>
+                    <div id="quem-somos-textos">
+                        <h2>Quem somos?</h2>
+                        <p class="faixas-text">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas buscamos garantir saúde e conforto em cada atendimento. Cuidamos do seu animalzinho como se fosse nosso!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="nossos-servicos-container">
+                <div class="nossos-servicos-content-container">
+                    <h2>Nossos Serviços</h2>
+                    <div class="nossos-servicos-content">
+                        <img class="nossos-servicos-img" src="./img/foto-oqsomos.png" alt="Consulta veterinária">
+                        <p class="faixas-text">Na nossa clínica veterinária, cada consulta é realizada com dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet. Contamos com uma equipe experiente e atualizada para oferecer diagnósticos precisos e tratamentos eficazes.</p>
+                    </div>
+                </div>
+                <div id="faixa-bottom-container">
+                    <div class="nossos-servicos-content-container">
+                        <div class="nossos-servicos-content">
+                            <p class="faixas-text">Nós cuidamos do seu pet com o carinho e respeito que ele merece. Nossa equipe dedica atenção a cada detalhe, proporcionando um ambiente acolhedor e seguro para que seu animalzinho se sinta em casa.</p>
+                            <img class="nossos-servicos-img" src="./img/Medicina-Veterinaria 1.png" alt="Cachorro feliz">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="caixa-laranja-flex">
+                <div class="caixa-laranja-conteudo">
+                    <h2>Nossos profissionais</h2>
+                        <div class="fotos-medicos">
+                            <div class="medico-item">
+                                <img src="./img/medico1.png" alt="Médico 1">
+                                <p class="nome-medico">Carlos de Souza</p>
+                                <p class="especialidade-medico">Cirurgia Veterinária</p>
+                            </div>
+                            <div class="medico-item">
+                                <img src="./img/medico2.png" alt="Médico 2">
+                                <p class="nome-medico">João Paulo</p>
+                                <p class="especialidade-medico">Dermatologia Veterinária</p>
+                            </div>
+                            <div class="medico-item">
+                                <img src="./img/medico3.png" alt="Médico 3">
+                                <p class="nome-medico">Jose da Silva</p>
+                                <p class="especialidade-medico">Patologia</p>
+                            </div>
+                            <div class="medico-item">
+                                <img src="./img/medico4.png" alt="Médico 4">
+                                <p class="nome-medico">Fulano</p>
+                                <p class="especialidade-medico">Anestesiologia</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="avaliacoes-section">
+            <div id="avaliacoes-container">
+                <h2>Não foi possível carregar as avalições</h2>
+                <div id="mensagens-container">
+
+                </div>
+            </div>
+        </section>
+    
+        <section id="contato-section">
+            <div id="contato-container">
+                <h2>Entre em Contato</h2>
+                <div id="form-container">
+                    <div id="map-and-infos">
+                        <h3>Localização</h3>
+                        <p id="text-endereco">Rua - Fulana de tal, 9999<br>CEP 99999-999<br>Pindorama/SP<br><br></p>
+
+                        <div id="map-image">
+                            <img id="map-photo" src="img/map.png" alt="Mapa com localização"/>
+                        </div>
+
+                        <div class="redes-contatos">
+                            <img class="icon" src="img/contacts/whatsapp.png" alt="whatsapp">
+                            <p class="text-contatos">(43)99615-9999</p>
+                        </div>
+
+                        <div class="redes-contatos">
+                            <img class="icon" src="img/contacts/instagram.png" alt="instagram">
+                            <p class="text-contatos">@PindoramaClinica</p>
+                        </div>
+
+                        <div class="redes-contatos">
+                            <img class="icon" src="img/contacts/facebook.png" alt="facebook">
+                            <p class="text-contatos">PindoramaClinica</p>
+                        </div>
+                    
+                    </div>
+                    <form id="contato-form" action="#" method="POST">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required />
+                
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome" required />
+                
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required />
+                
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                        <button type="submit" id="btn-enviar">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <footer>
         <div id="footer-content-container">
-            <img src="./img/logo.png" >
-
+            <img src="./img/logo.png" alt="Logo Pindorama Pets">
             <div class="footer-content">
                 <span>Nossos Serviços</span>
                 <p class="links-footer">SOBRE NÓS</p>
@@ -36,6 +208,11 @@
 
             <div class="footer-content">
                 <span>Nossos contatos</span>
+                <div id="contacts-icons">
+                    <img class="icon" src="img/contacts/whatsapp.png" alt="whatsapp">
+                    <img class="icon" src="img/contacts/instagram.png" alt="instagram">
+                    <img class="icon" src="img/contacts/facebook.png" alt="facebook">
+                </div>
             </div>
         </div>
 
@@ -43,5 +220,7 @@
             <p id="direitos">UNECT JR - Todos os direitos reservados</p>
         </div>
     </footer>
+    <script src="./index.js"></script>
+    <script src="./scripts/avaliacoes.js"></script>
 </body>
 </html>
