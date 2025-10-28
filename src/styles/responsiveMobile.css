@@ -1,12 +1,261 @@
-/*responsividade do mobile*/
+
+.servicos-mobile-btn {
+    display: none;
+}
 
 @media (max-width: 768px) {
+
+    #faixa-bottom-container {
+        display: none !important;
+    }
+    .servicos-mobile-btn {
+        display: block !important;
+        width: 70%;
+        margin: 2rem 0 0 3rem;
+        padding: 0.8rem 1rem;
+        background: #ffffff;
+        color: #063643;
+        border: none;
+        border-radius: 0.2rem;
+        font-size: 1.1rem;
+        font-weight: 800;
+        text-align: center;
+        text-decoration: none;
+        transition: background 0.2s;
+    }
+        .servicos-mobile-btn:hover,
+        .servicos-mobile-btn:active {
+            background: #04506b;
+            color: #fff;
+    }
+}
+/*responsividade do mobile*/
+
+
+.logo-mobile-only {
+    display: none;
+}
+
+
+.hamburger-mobile-only {
+    display: none;
+}
+
+
+.hero-mobile-text {
+    display: none;  
+}
+
+
+.hero-mobile-bg {
+    display: none;
+}
+
+
+.mobile-contact-btn {
+    display: none;
+}
+
+
+.hero-mobile-banner {
+    display: none;
+}
+
+
+.servicos-mobile-title {
+    display: none;
+}
+
+
+.servicos-mobile-extra {
+    display: none;
+}
+
+
+.gato-mobile-servicos {
+    display: none;
+}
+
+
+.faixas-text-mobile {
+    display: none;
+}
+
+
+.faixas-text-mobile-extra {
+    display: none;
+}
+
+
+.logo-mobile-quemsomos {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    
+    .servicos-mobile-extra {
+        display: block !important;
+        text-align: center;
+        width: 90%;
+        margin: 1.2rem auto 0 auto;
+        font-size: 1rem;
+        color: #063643;
+        padding-left: 1.5rem;
+    }
+
+    
+    .servicos-desktop-title {
+        display: none !important;
+    }
+    .servicos-mobile-title {
+        display: block !important;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 2.5rem auto 1.2rem auto;
+        padding-left: 2rem;
+    }
+
+    
+    .nossos-servicos-content-container {
+           width: 80vw !important;
+           padding-bottom: 2px !important;
+           padding-inline: 2vw !important;
+    }
+    .nossos-servicos-content {
+           gap: 0.5vw !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    
+    .gato-mobile-servicos {
+           display: block !important;
+           margin: 3rem 0 0 auto;
+           width: 140px;
+    }
+
+    
+    .nossos-servicos-img {
+        display: none !important;
+    }
+
+    
+    .faixas-text-mobile-extra {
+        display: block !important;
+        text-align: center;
+        width: 100%;
+        margin: 1.2rem auto 0 auto;
+        font-size: 0.86rem;
+        color: #063643;
+        font-weight: bold;
+    min-height: 2.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    }
+
+    
+    .faixas-text {
+        display: none !important;
+    }
+    .faixas-text-mobile {
+        display: block !important;
+        text-align: center;
+        width: 100%;
+        margin: 2.5rem auto 0 auto;
+        font-size: 0.85rem;
+        color: #063643;
+    }
+
+    
+    .logo-mobile-quemsomos {
+           display: block !important;
+           margin: 1.5rem auto 0 auto;
+           width: 180px;
+           text-align: center;
+    }
+
+    
+    #quem-somos-content-container h2 {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    
+    #quem-somos-logo img[src*="logo-meio.png"] {
+        display: none !important;
+    }
 
     *{
         margin: 0;
         padding: 0;
     }
 
+    
+    #carousel {
+        display: none !important;
+    }
+
+    
+    .banner-contact-button {
+        display: none !important;
+    }
+
+    
+    .hero-desktop-text {
+        display: none !important;
+    }
+    .hero-mobile-text {
+           display: block !important;
+           white-space: nowrap;
+           text-align: left;
+           margin-left: -11rem;
+    }
+
+    
+    header {
+        position: static !important;
+        top: auto !important;
+        z-index: auto !important;
+        box-shadow: none;
+    }
+
+    
+    .lines-decoration {
+        display: none !important;
+    }
+
+    
+    #first-banner-container {
+        background-image: none !important;
+    }
+
+    .nav-menu, .nav-list, .links-header {
+        display: none !important;
+    }
+
+    
+    #header-container img[src*="logo-horizontal.png"] {
+        display: none !important;
+    }
+
+    
+    .logo-mobile-only {
+        display: block !important;
+            width: 100px;
+        margin: 0 auto;
+    }
+
+    .hamburger-mobile-only {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 9px;
+        cursor: pointer;
+            margin-top: 16px;
+    }
 
     /*veterinarios section*/
     .caixa-laranja-flex{
@@ -48,6 +297,44 @@
     .especialidade-medico{
         font-size: 12px;
     }
+
+        /* Exibe o fundo mobile apenas no mobile */
+        .hero-mobile-bg {
+            display: block !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: auto;
+            z-index: -1;
+            margin-top: 6rem;
+        }
+
+            .hero-mobile-banner {
+                display: block !important;
+                position: absolute;
+                top: 13.5rem;
+                left: 0;
+                width: 100vw;
+                height: auto;
+                z-index: -1;
+            }
+
+                .mobile-contact-btn {
+                    display: block !important;
+                    position: relative;
+                    margin: 14rem -5rem 0 auto;
+                       padding: 0.5rem 1.2rem;
+                       background: #0F637A;
+                       color: #fff;
+                       font-size: 0.95rem;
+                       font-weight: 500;
+                       border-radius: 7px;
+                       text-align: center;
+                       text-decoration: none;
+                       width: max-content;
+                       z-index: 1;
+                }
 
     /*avaliacoes*/
     #avaliacoes-container{
@@ -155,7 +442,7 @@
 
     #last-content-footer, footer img{
         display: none;
-        justify-content: space-evenly; /*tirando os contatos do footer e a logo*/
+        justify-content: space-evenly; 
     }
 
     .links-footer, span, #direitos{

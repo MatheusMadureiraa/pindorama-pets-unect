@@ -11,7 +11,15 @@
 <body>
     <header>
         <div id="header-container">
-            <img src="./img/logo-horizontal.png" alt="Logo Pindorama Pets">
+                <div class="hamburger-mobile-only">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="7" width="32" height="3" rx="1.5" fill="#063643"/>
+                        <rect y="14" width="32" height="3" rx="1.5" fill="#063643"/>
+                        <rect y="21" width="32" height="3" rx="1.5" fill="#063643"/>
+                    </svg>
+                </div>
+                <img src="./img/logo-horizontal.png" alt="Logo Pindorama Pets">
+                <img src="./img/logo-mobile.png" alt="Logo Mobile Pindorama Pets" class="logo-mobile-only">
             <nav class="nav-menu">
                 <ul class="nav-list">
                     <li><a class="links-header" href="#hero">Início</a></li>
@@ -26,8 +34,12 @@
     <main>
         <section id="first-banner-section">
             <div id="first-banner-container">
-                <div id="first-banner-left-content">
-                    <h2>Cuidando do Seu Pet com Profissionalismo e Carinho</h2>
+                 <img src="./img/Ellipse.png" alt="Fundo Mobile" class="hero-mobile-bg" />
+                 <img src="./img/mobile-banner.png" alt="Banner Mobile" class="hero-mobile-banner" />
+                 <a href="#contato-section" class="mobile-contact-btn">Entre em contato</a>
+                 <div id="first-banner-left-content">
+                    <h2 class="hero-desktop-text">Cuidando do Seu Pet com Profissionalismo e Carinho</h2>
+                    <h2 class="hero-mobile-text">Cuidamos do seu  <br>  animal com muito  <br>  amor</h2>
                     <div><a href="#contato-section" class="banner-contact-button">Entre em contato</a></div>
                 </div>
                 <img src="./img/riscos-do-banner-central.png" alt="Riscos decorativos" class="lines-decoration">
@@ -76,15 +88,22 @@
                     </div>
                     <div id="quem-somos-textos">
                         <h2>Quem somos?</h2>
+                            <img src="./img/logo-mobile-quemsomos.png" alt="Logo Mobile Quem Somos" class="logo-mobile-quemsomos" />
                         <p class="faixas-text">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas buscamos garantir saúde e conforto em cada atendimento. Cuidamos do seu animalzinho como se fosse nosso!</p>
+                            <p class="faixas-text-mobile">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento.</p>
+                                <p class="faixas-text-mobile-extra">Cuidamos do seu animalzinho com amor!</p>
                     </div>
                 </div>
             </div>
             <div id="nossos-servicos-container">
                 <div class="nossos-servicos-content-container">
-                    <h2>Nossos Serviços</h2>
+                    <h2 class="servicos-desktop-title">Nossos Serviços</h2>
+                    <h2 class="servicos-mobile-title">Nossos serviços visam o cuidado do seu pet</h2>
+                <p class="servicos-mobile-extra">Na nossa clínica veterinária, cada consulta é realizada com dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet.</p>
+                <a href="#contato-section" class="servicos-mobile-btn">Agende uma consulta</a>
                     <div class="nossos-servicos-content">
                         <img class="nossos-servicos-img" src="./img/foto-oqsomos.png" alt="Consulta veterinária">
+                        <img src="./img/gato-mobile.png" alt="Gato Mobile" class="gato-mobile-servicos" />
                         <p class="faixas-text">Na nossa clínica veterinária, cada consulta é realizada com dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet. Contamos com uma equipe experiente e atualizada para oferecer diagnósticos precisos e tratamentos eficazes.</p>
                     </div>
                 </div>
