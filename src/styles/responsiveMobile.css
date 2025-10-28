@@ -1,6 +1,7 @@
-
-.servicos-mobile-btn {
-    display: none;
+/*responsividade do mobile*/
+*{
+        margin: 0;
+        padding: 0;
 }
 
 @media (max-width: 768px) {
@@ -29,8 +30,10 @@
             color: #fff;
     }
 }
-/*responsividade do mobile*/
 
+.servicos-mobile-btn {
+    display: none;
+}
 
 .logo-mobile-only {
     display: none;
@@ -188,11 +191,6 @@
         display: none !important;
     }
 
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
     
     #carousel {
         display: none !important;
@@ -257,7 +255,45 @@
             margin-top: 16px;
     }
 
-    /*veterinarios section*/
+    /* Exibe o fundo mobile apenas no mobile */
+    .hero-mobile-bg {
+        display: block !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: auto;
+        z-index: -1;
+        margin-top: 6rem;
+    }
+
+    .hero-mobile-banner {
+        display: block !important;
+        position: absolute;
+        top: 13.5rem;
+        left: 0;
+        width: 100vw;
+        height: auto;
+        z-index: -1;
+    }
+
+    .mobile-contact-btn {
+        display: block !important;
+        position: relative;
+        margin: 14rem -5rem 0 auto;
+            padding: 0.5rem 1.2rem;
+            background: #0F637A;
+            color: #fff;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border-radius: 7px;
+            text-align: center;
+            text-decoration: none;
+            width: max-content;
+            z-index: 1;
+    }
+
+    /*veterinarios section - parte matheus*/
     .caixa-laranja-flex{
         background: none;
         border: none;
@@ -297,44 +333,6 @@
     .especialidade-medico{
         font-size: 12px;
     }
-
-        /* Exibe o fundo mobile apenas no mobile */
-        .hero-mobile-bg {
-            display: block !important;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: auto;
-            z-index: -1;
-            margin-top: 6rem;
-        }
-
-            .hero-mobile-banner {
-                display: block !important;
-                position: absolute;
-                top: 13.5rem;
-                left: 0;
-                width: 100vw;
-                height: auto;
-                z-index: -1;
-            }
-
-                .mobile-contact-btn {
-                    display: block !important;
-                    position: relative;
-                    margin: 14rem -5rem 0 auto;
-                       padding: 0.5rem 1.2rem;
-                       background: #0F637A;
-                       color: #fff;
-                       font-size: 0.95rem;
-                       font-weight: 500;
-                       border-radius: 7px;
-                       text-align: center;
-                       text-decoration: none;
-                       width: max-content;
-                       z-index: 1;
-                }
 
     /*avaliacoes*/
     #avaliacoes-container{
@@ -437,7 +435,6 @@
     /*footer section*/
     #footer-content-container{
         width: 90%;
-        height: auto;
     }
 
     #last-content-footer, footer img{
@@ -450,5 +447,3 @@
         padding-top: 6px;
     }
 }
-
-/*testando o git*/
