@@ -3,16 +3,16 @@ O **Pindorama Pets** é um site institucional desenvolvido para uma clínica vet
 
 ## Prévia
 ### Versão Desktop
-<div align="center" style="display: flex; flex-direction: column; align-items: center; gap: 10px; flex-wrap: wrap;">
-    <img src="./assets/desktop01.jpg" alt="Pindorama Pets - Versão Desktop 1" width="60%">
-    <img src="./assets/desktop02.jpg" alt="Pindorama Pets - Versão Desktop 2" width="60%">
-</div>
+<p align="center">
+<img src="./assets/desktop01.jpg" alt="Pindorama Pets - Versão Desktop 1" width="45%">
+<img src="./assets/desktop02.jpg" alt="Pindorama Pets - Versão Desktop 2" width="45%">
+</p>
 
-### Versão Mobile
-<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <img src="./assets/mobile01.jpg" alt="Pindorama Pets - Versão Mobile 1" width="25%">
-    <img src="./assets/mobile02.jpg" alt="Pindorama Pets - Versão Mobile 2" width="25%">
-</div>
+## Versão Mobile
+<p align="center">
+<img src="./assets/mobile01.jpg" alt="Pindorama Pets - Versão Mobile 1" width="25%">
+<img src="./assets/mobile02.jpg" alt="Pindorama Pets - Versão Mobile 2" width="25%">
+</p>
 
 ## Visão Geral
 A página foi construída com foco em **responsividade** e **experiência do usuário**, adaptando-se a diferentes dispositivos, desde **computadores (versão desktop)** até **smartphones (versão mobile)**.
